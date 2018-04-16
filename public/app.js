@@ -18,11 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
     image.width = 500;
     image.src = cat[2];
 
+    cats.appendChild(newCat);
     newCat.appendChild(newCatName);
     newCat.appendChild(newCatFood);
-    newCatImage.appendChild(image);
     newCat.appendChild(newCatImage);
-    cats.appendChild(newCat);
+    newCatImage.appendChild(image);
+
   }
 
 const boba = ['Boba', 'Sock fluff', 'http://66.media.tumblr.com/d1f01bbe0150fda0c40d2151c5eaeac8/tumblr_odlqqskjj61v9cejwo1_400.jpg']
