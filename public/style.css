@@ -6,16 +6,20 @@ body {
 
 img {
   background-color: white;
+  align-content: center;
   vertical-align: bottom;
+}
+
+li {
+  padding: 0px;
 }
 
 ul {
   background-color: black;
   list-style: none;
-  margin: 0;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  padding: 20px;
   text-align: center;
   color: white;
   width: 500px;
